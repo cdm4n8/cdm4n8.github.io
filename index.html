@@ -1,3 +1,20 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+  </head>
+  <body>
+    <h1 class="text-3xl font-bold underline">
+      Hello world!
+    </h1>
+  </body>
+</html>
+
+
+
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -7,29 +24,29 @@
     <title>My Website Home</title>
     
     <!-- Link to your CSS stylesheet -->
-    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
 </head>
 <body>
 
-    <!-- 2. VISIBLE WEBSITE HEADER & NAVIGATION -->
-    <header>
-        <div class="logo">
-            <a href="index.html"><strong>MyWebsite</strong></a>
-        </div>
-        <nav>
-            <ul>
-                <li><a href="index.html" class="active">Home</a></li>
-                <li><a href="about.html">About</a></li>
-                <li><a href="services.html">Services</a></li>
-                <li><a href="contact.html">Contact</a></li>
-            </ul>
-        </nav>
-    </header>
+<header>
+  <div class="logo">
+    <a href="index.html"><strong>MyWebsite</strong></a>
+  </div>
 
-    <main>
-        <h1>Welcome to the Homepage</h1>
-        <p>Your main content starts here...</p>
-    </main>
+  <nav class="pl-10 pt-5 pb-5">
+    <ul class="flex gap-3 h-10 items-center text-white">
+      <li class="bg-blue-400 p-1 rounded"><a href="index.html" class="active">Home</a></li>
+      <li class="text-black p-1 rounded hover:bg-blue-400 hover:text-white"><a href="about.html">About</a></li>
+      <li class="text-black p-1 rounded hover:bg-blue-400 hover:text-white"><a href="services.html">Services</a></li>
+      <li class="text-black p-1 rounded hover:bg-blue-400 hover:text-white"><a href="contact.html">Contact</a></li>
+    </ul>
+  </nav>
+</header>
+
+<main class="pl-10">
+  <h1 class="text-2xl">Welcome to the Homepage</h1>
+  <p>Your main content starts here...</p>
+</main>
 
 </body>
 </html>
